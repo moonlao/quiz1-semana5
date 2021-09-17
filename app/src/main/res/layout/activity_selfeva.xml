@@ -2,77 +2,84 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/screen3"
+    android:id="@+id/screen4"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PrepAct">
+    tools:context=".SelfEva">
 
     <CheckBox
-        android:id="@+id/prepO1"
+        android:id="@+id/selfevaO1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="58dp"
-        android:layout_marginTop="89dp"
+        android:layout_marginTop="80dp"
         android:layout_marginEnd="82dp"
-        android:text="Vi los video de preparación de la clase"
+        android:text="Comprendí los temas teóricos"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
     <CheckBox
-        android:id="@+id/prepO3"
+        android:id="@+id/selfevaO2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="59dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="161dp"
-        android:text="Ninguna de las anteriores"
+        android:text="No comprendí los temas"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/prepO2" />
+        app:layout_constraintTop_toBottomOf="@+id/selfevaO3" />
 
     <CheckBox
-        android:id="@+id/prepO2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/selfevaO3"
+        android:layout_width="284dp"
+        android:layout_height="47dp"
         android:layout_marginStart="58dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="107dp"
-        android:text="Realicé los ejemplos en los videos"
+        android:text="Comprendí completamente los ejercicios prácticos"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/prepO1" />
+        app:layout_constraintTop_toBottomOf="@+id/selfevaO1" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="24dp"
         android:text="Elige las opciones que apliquen a tu caso:"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="57dp"
-        android:text="Actividades de preparación"
+        android:layout_marginTop="56dp"
+        android:text="Autoevaluación"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.241"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/prepNext"
+        android:id="@+id/selfevaNext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="200dp"
         android:text="Continuar"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/prepO3" />
+        app:layout_constraintTop_toBottomOf="@+id/selfevaO2" />
 </androidx.constraintlayout.widget.ConstraintLayout>
