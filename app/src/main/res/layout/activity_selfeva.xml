@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="58dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="76dp"
         android:layout_marginEnd="82dp"
         android:text="Comprendí los temas teóricos"
         app:layout_constraintEnd_toEndOf="parent"
@@ -35,8 +35,8 @@
 
     <CheckBox
         android:id="@+id/selfevaO3"
-        android:layout_width="284dp"
-        android:layout_height="47dp"
+        android:layout_width="288dp"
+        android:layout_height="53dp"
         android:layout_marginStart="58dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="107dp"
@@ -74,12 +74,15 @@
         android:id="@+id/selfevaNext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="70dp"
-        android:layout_marginBottom="200dp"
+        android:layout_marginTop="80dp"
         android:text="Continuar"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.429"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/selfevaO2" />
+        app:layout_constraintTop_toBottomOf="@+id/selfevaO2"
+        app:layout_constraintVertical_bias="0.0" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
